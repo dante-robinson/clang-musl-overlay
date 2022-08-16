@@ -27,7 +27,6 @@ RESTRICT="!test? ( test )"
 # or this package allows using llvm-libunwind for other arches
 DEPEND="!ppc64? (
 	riscv? ( sys-libs/llvm-libunwind:= )
-	!riscv? ( sys-libs/llvm-libunwind:= )
 )"
 RDEPEND="${DEPEND}"
 
